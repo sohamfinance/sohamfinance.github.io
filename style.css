@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #2a9d8f;
+    color: white;
+    padding: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #264653;
+}
+
+.service, .testimonial {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #264653;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+}
+
+.whatsapp-float img {
+    width: 100%;
+}
