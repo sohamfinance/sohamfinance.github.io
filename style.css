@@ -38,6 +38,32 @@ h2 {
     border-radius: 5px;
 }
 
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #264653;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+}
+
+.whatsapp-float img {
+    width: 100%;
+}
 
 #blog {
     padding: 40px;
@@ -79,31 +105,4 @@ article h2 {
 article a {
     text-decoration: none;
     color: #007bff;
-}
-
-form input, form textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-button {
-    background: #264653;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.whatsapp-float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-}
-
-.whatsapp-float img {
-    width: 100%;
 }
