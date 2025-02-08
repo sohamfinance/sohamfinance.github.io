@@ -38,6 +38,49 @@ h2 {
     border-radius: 5px;
 }
 
+
+#blog {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.blog-post {
+    background: #f8f8f8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.blog-post h3 {
+    margin: 0;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+article h2 {
+    color: #264653;
+}
+
+article a {
+    text-decoration: none;
+    color: #007bff;
+}
+
 form input, form textarea {
     width: 80%;
     padding: 10px;
