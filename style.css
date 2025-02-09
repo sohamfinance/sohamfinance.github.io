@@ -109,7 +109,7 @@ article a {
 /* LinkedIn Floating Button (Positioned Above WhatsApp) */
 .linkedin-float {
     position: fixed;
-    bottom: 80px; /* Adjusted to be above WhatsApp */
+    bottom: 100px; /* Adjusted to be above WhatsApp */
     right: 20px;
     width: 50px;
     height: 50px;
