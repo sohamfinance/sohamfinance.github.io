@@ -106,3 +106,16 @@ article a {
     text-decoration: none;
     color: #007bff;
 }
+
+/* LinkedIn Icon Styling */
+.linkedin-icon img {
+    width: 40px; /* Adjust size */
+    height: 40px;
+    border-radius: 50%; /* Circular icon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.linkedin-icon img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    opacity: 0.8; /* Reduce brightness slightly */
+}
