@@ -54,17 +54,6 @@ button {
     cursor: pointer;
 }
 
-.whatsapp-float {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-}
-
-.whatsapp-float img {
-    width: 100%;
-}
-
 #blog {
     padding: 40px;
     max-width: 800px;
@@ -107,23 +96,36 @@ article a {
     color: #007bff;
 }
 
-/* LinkedIn Icon Styling*/
-.linkedin-float {
+/* WhatsApp Floating Button */
+.whatsapp-float {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 50px;
-  /*  height: 50px;
-    z-index: 1000;*/
+    height: 50px;
+    z-index: 1000;
 }
 
+/* LinkedIn Floating Button (Positioned Above WhatsApp) */
+.linkedin-float {
+    position: fixed;
+    bottom: 80px; /* Adjusted to be above WhatsApp */
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+}
+
+/* Common Styling for Icons */
+.whatsapp-float img,
 .linkedin-float img {
     width: 100%;
-   /* border-radius: 50%;
+    border-radius: 50%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;*/
+    transition: transform 0.3s;
 }
 
-/*.linkedin-float img:hover {
+.whatsapp-float img:hover,
+.linkedin-float img:hover {
     transform: scale(1.1);
-}*/
+}
