@@ -173,10 +173,12 @@ section p {
 /* Services Section */
 #services {
     display: flex;
-    flex-direction: column; /* Stack services one below the other */
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    text-align: left;
     padding: 20px;
+    max-width: 800px; /* Keep consistent width */
+    margin: auto; /* Center the section while keeping content left-aligned */
 }
 
 .service {
@@ -185,9 +187,8 @@ section p {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 15px 0; /* Adds spacing between each service */
-    width: 90%;
-    max-width: 600px; /* Limits width to maintain a clean look */
+    margin-bottom: 20px; /* Spacing between each service */
+    width: 100%; /* Full width inside the section */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -205,6 +206,7 @@ section p {
     font-size: 1em;
     line-height: 1.5;
 }
+
 
 
 /* Testimonials Section */
