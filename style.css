@@ -97,17 +97,6 @@ article a {
     color: #007bff;
 } 
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #services {
-        flex-direction: column;
-    }
-
-    .service {
-        flex: 1 1 100%;
-    }
-}
-
 
 /* WhatsApp Floating Button */
 .whatsapp-float {
