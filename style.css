@@ -173,20 +173,22 @@ section p {
 /* Services Section */
 #services {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column; /* Stack services one below the other */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 .service {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    flex: 1 1 calc(33% - 20px);
-    box-sizing: border-box;
-    transition: transform 0.3s;
+    margin: 15px 0; /* Adds spacing between each service */
+    width: 90%;
+    max-width: 600px; /* Limits width to maintain a clean look */
+    transition: transform 0.3s ease-in-out;
 }
 
 .service:hover {
@@ -194,13 +196,16 @@ section p {
 }
 
 .service h3 {
-    margin-top: 0;
-    color: #e76f51;
+    color: #264653;
+    margin-bottom: 10px;
 }
 
 .service p {
-    margin: 10px 0;
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
 }
+
 
 /* Testimonials Section */
 #testimonials {
