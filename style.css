@@ -180,22 +180,48 @@ article a {
     color: white;
 }
 
-footer {
-    background: #264653;
+/* Contact Section Styling */
+.contact {
+    background: #222;
     color: white;
+    padding: 50px 20px;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    position: relative; /* Ensures the button positions correctly */
 }
 
-footer a {
-    color: #e76f51;
-    font-weight: bold;
+/* Google Form Button */
+.google-form-btn {
+    display: inline-block; /* Prevents overlap issues */
+    margin-top: 20px; /* Adds space above the button */
+    padding: 12px 20px;
+    background: #E63946;
+    color: white;
     text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 16px;
 }
 
-footer a:hover {
-    text-decoration: underline;
+/* Button Hover Effect */
+.google-form-btn:hover {
+    background: #C92D3A;
+}
+
+/* Ensure proper spacing on small screens */
+@media screen and (max-width: 768px) {
+    .google-form-btn {
+        width: 80%; /* Makes the button more responsive */
+        padding: 14px;
+        font-size: 18px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
 }
 
 
