@@ -182,11 +182,11 @@ article a {
 
 /* Contact Section Styling */
 .contact {
-    background: #222;
+    background: #2a9d8f;
     color: white;
     padding: 50px 20px;
     text-align: center;
-    position: relative; /* Ensures the button positions correctly */
+    position: relative;
 }
 
 /* Google Form Button */
